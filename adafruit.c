@@ -15,6 +15,11 @@ void sub (int a, int b)
 	return;
 }
 
+void mult (int a, int b)
+{
+	int c = a * b;
+	return;
+}
 #------------------------
 # Main Function template
 #-------------------------
@@ -23,5 +28,6 @@ int main(void)
   int a=b=10;
   add(a,b);
   sub(a,b);
+  mult(a,b);
   return 0;
 }
