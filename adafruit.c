@@ -8,6 +8,13 @@ void add (int a, int b)
   c = a + b;
   return;
 }
+
+void sub (int a, int b)
+{
+	int c = a - b;
+	return;
+}
+
 #------------------------
 # Main Function template
 #-------------------------
@@ -15,5 +22,6 @@ int main(void)
 {
   int a=b=10;
   add(a,b);
+  sub(a,b);
   return 0;
 }
